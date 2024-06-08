@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "displaylink",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/IgorMuzyka/DisplayLink",
+      "state" : {
+        "revision" : "ee4abe84a9ccd217ca9e2d54c258a10d3464f621",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
