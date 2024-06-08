@@ -25,14 +25,14 @@ struct Gauges: View {
                     }
                 }
                 .padding(3)
-                .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 30, style: .circular))
+                .background(.ultraThickMaterial, in: RoundedRectangle(cornerRadius: 30, style: .circular))
             } else {
                 HStack {
                     cpuAndMemory
                     thermalAndGraphics
                 }
                 .padding(3)
-                .background(.ultraThinMaterial, in: Capsule(style: .continuous))
+                .background(.ultraThickMaterial, in: Capsule(style: .continuous))
             }
         }
         .scaleEffect(sizeClass.scale, anchor: .center)
