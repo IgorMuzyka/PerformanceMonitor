@@ -3,14 +3,8 @@
 
 # Preview
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./preview/dark.png">
-  <img alt="Dark Preview'" src="./preview/dark.png">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="./preview/light.png">
-  <img alt="Light Preview'" src="./preview/light.png">
-</picture>
+![Dark Preview](./preview/dark.png#gh-dark-mode-only)
+![Light Preview](./preview/light.png/#gh-light-mode-only)
 
 ## Usage
 
